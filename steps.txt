@@ -1,0 +1,64 @@
+
+State qS
+Tape1 : Symbol B -> New Symbol B, Direction R, Postion 0 -> new Postion 1
+Tape2 : Symbol B -> New Symbol B, Direction R, Postion 0 -> new Postion 1
+New State q0
+Tape1:
+['B', '0', '0', '1', '1', 'B']
+Tape2:
+['B', 'B', 'B', 'B', 'B', 'B']
+            
+State q0
+Tape1 : Symbol 0 -> New Symbol 0, Direction R, Postion 1 -> new Postion 2
+Tape2 : Symbol B -> New Symbol 0, Direction R, Postion 1 -> new Postion 2
+New State q0
+Tape1:
+['B', '0', '0', '1', '1', 'B']
+Tape2:
+['B', '0', 'B', 'B', 'B', 'B']
+            
+State q0
+Tape1 : Symbol 0 -> New Symbol 0, Direction R, Postion 2 -> new Postion 3
+Tape2 : Symbol B -> New Symbol 0, Direction R, Postion 2 -> new Postion 3
+New State q0
+Tape1:
+['B', '0', '0', '1', '1', 'B']
+Tape2:
+['B', '0', '0', 'B', 'B', 'B']
+            
+State q0
+Tape1 : Symbol 1 -> New Symbol 1, Direction S, Postion 2 -> new Postion 3
+Tape2 : Symbol B -> New Symbol B, Direction L, Postion 1 -> new Postion 2
+New State q1
+Tape1:
+['B', '0', '0', '1', '1', 'B']
+Tape2:
+['B', '0', '0', 'B', 'B', 'B']
+            
+State q1
+Tape1 : Symbol 1 -> New Symbol 1, Direction R, Postion 3 -> new Postion 4
+Tape2 : Symbol 0 -> New Symbol 0, Direction L, Postion 0 -> new Postion 1
+New State q1
+Tape1:
+['B', '0', '0', '1', '1', 'B']
+Tape2:
+['B', '0', '0', 'B', 'B', 'B']
+            
+State q1
+Tape1 : Symbol 1 -> New Symbol 1, Direction R, Postion 4 -> new Postion 5
+Tape2 : Symbol 0 -> New Symbol 0, Direction L, Postion -1 -> new Postion 0
+New State q1
+Tape1:
+['B', '0', '0', '1', '1', 'B']
+Tape2:
+['B', '0', '0', 'B', 'B', 'B']
+            
+State q1
+Tape1 : Symbol B -> New Symbol B, Direction L, Postion 3 -> new Postion 4
+Tape2 : Symbol B -> New Symbol B, Direction R, Postion 0 -> new Postion 1
+New State qF
+Tape1:
+['B', '0', '0', '1', '1', 'B']
+Tape2:
+['B', '0', '0', 'B', 'B', 'B']
+            
